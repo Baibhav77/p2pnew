@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e6d6f1;
+  margin: 0;
+  padding: 0;
+}
+
+.enhancedContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #271d4a;
+  color: white;
+  height: 100vh;
+  padding: 40px 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 300px;
+  margin: 20px 0;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #b4a3cf;
+  border-radius: 6px;
+  background-color: #e6d6f1;
+  color: #271d4a;
+}
+
+.submitBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #b4a3cf;
+  color: #271d4a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #b4a3cf;
+}
+
+.authButtons {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.signUpBtn {
+  background-color: #b4a3cf;
+  color: #271d4a;
+}
+
+.loginBtn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.getStartedBtn {
+  background-color: #b4a3cf;
+  color: #271d4a;
+}
+
+.illustration img {
+  max-width: 100%;
+}
+
+/* App.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.registerBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #5648ff;  /* Adjust to match the exact color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.registerBtn:hover {
+  background-color: #4637cc;  /* Adjust for hover effect */
+}

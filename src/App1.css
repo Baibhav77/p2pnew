@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: Poppins;
+}
+
+.dashboardContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f6fa;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #ffffff;
+  color: #6b7c93;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-right: 1px solid #e5e9f2;
+  z-index: 1;
+}
+
+.logoContainer h1 {
+  font-family: Poppins;
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #1f0673;
+  height: 50px;
+  position: relative;
+  top: -28px;
+  width: 100%;
+  left: -48px;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.sidebarNav {
+  margin-top: 50px;
+  flex: 1;
+}
+
+.sidebarNav a {
+  display: flex;
+  height: 5%;
+  padding: 5px 25px;
+  color: #6b7c93;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.sidebarNav a.active,
+.sidebarNav a:hover {
+  color: #5343aa;
+}
+
+.sidebarNav a.active::before,
+.sidebarNav a:hover::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 3px;
+  background-color: #5343aa;
+}
+
+.premiumContainer {
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-top: 1px solid #e5e9f2;
+  text-align: center;
+}
+
+.premiumContainer p {
+  margin-bottom: 20px;
+}
+
+.premiumContainer button {
+  background-color: #5343aa;
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.premiumContainer button:hover {
+  background-color: #413290;
+}
+
+.dashboardMain {
+  flex: 1;
+  display: flex;
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  flex-direction: column;
+}
+
+.dashboardHeader {
+  position: relative;
+  height: 80px;
+  padding: 0 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e9f2;
+  background-color: #ffffff;
+}
+
+.dashboardContent {
+  position: relative;
+  top: 0px;
+  left: 10%;
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f6fa;
+}
+
+.dashboardHeader {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  background-color: #413290;
+}
+
+.dashboardHeader p {
+  position: relative;
+  top: 0px;
+  left: 900px;
+  color: white;
+}
+
+
+  /* Inside your App1.css */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it sits on top of everything else */
+  }
+  
+  .enhancedContainer1 {
+    width: 400px; /* Width of your popup */
+    height: 400px; /* Height of your popup */
+    background-color: #413290;
+    color:white;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow */
+    text-align: center; /* Center the text within the container */
+  }
+  

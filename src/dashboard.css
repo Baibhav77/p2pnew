@@ -1,0 +1,65 @@
+.ltvOverview {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.ltvOverview h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #5343AA; /* Brand color */
+    margin-bottom: 20px;
+}
+
+.ltvCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ltvCard {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.ltvCard h4 {
+    margin: 0;
+    color: #6B7C93; /* Neutral Gray */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ltvCard h3 {
+    margin: 0;
+    font-size: 28px;
+    color: #333333; /* Basic Black */
+    margin-bottom: 10px;
+}
+
+.ltvCard p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.positiveChange {
+    color: #2ECC71; /* Success Green */
+}
+
+.negativeChange {
+    color: #E74C3C; /* Alert Red */
+}
+button {
+  margin-top:20px;
+  background-color: #5343aa; /* Brand color */
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
