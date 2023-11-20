@@ -1,0 +1,51 @@
+
+.loading-bar {
+  width: 100%;
+  max-width: 60vh;
+  height: 20px;
+  background: gray;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.loading {
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, blue, yellow);
+  position: relative;
+  border-radius: 10px;
+  animation: electric 1s infinite;
+}
+
+@keyframes electric {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.checkpoint {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background: white;
+  left: 50%;
+  z-index: 1;
+  border-radius: 5px;
+  animation: none;
+}
+
+.active {
+  animation: checkpointReached 0.5s infinite;
+}
+.image1{
+  position:absolute;
+  left:30px;
+  top:-30px
+}
+.divy{
+  width:100vh;
+}

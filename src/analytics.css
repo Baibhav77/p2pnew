@@ -1,0 +1,75 @@
+.mainbody{
+  position:relative;
+  padding-top:20px;
+ 
+}
+.records-section {
+  margin-top:10%;
+  margin-left:25%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:white;
+  border-radius:10px;
+}
+
+table {
+  position:relative;
+ 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+table thead tr {
+    background-color: #f7f7f7;
+}
+
+.stations-container {
+  background-color: white;
+  padding: 20px;
+  
+  font-family: Arial, sans-serif;
+}
+
+.station-card {
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.station-details p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.delete-btn, .add-btn {
+  background-color: red;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover, .add-btn:hover {
+  background-color: #0056b3;
+}
+.la{
+  position:relative;
+  margin:10px;
+}

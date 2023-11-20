@@ -2,6 +2,7 @@
 
 body {
   font-family: Poppins;
+  overflow-x:hidden;
 }
 
 .dashboardContainer {
@@ -16,7 +17,7 @@ h2 {
 }
 
 .sidebar {
-  position: fixed;
+  position: fixed; 
   width: 250px;
   height: 100vh;
   background-color: #ffffff;
@@ -45,14 +46,14 @@ h2 {
 }
 
 .sidebarNav {
-  margin-top: 50px;
+  margin-top: 10px;
   flex: 1;
+  flex-direction: column;
 }
 
 .sidebarNav a {
-  display: flex;
-  height: 5%;
-  padding: 5px 25px;
+  display: block;
+  padding: 15px 25px;
   color: #6b7c93;
   text-decoration: none;
   font-weight: 500;
@@ -94,6 +95,8 @@ h2 {
   padding: 10px 20px;
   color: #ffffff;
   border-radius: 6px;
+
+  
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -106,30 +109,8 @@ h2 {
   flex: 1;
   display: flex;
   width: calc(100% - 250px);
-  margin-left: 250px;
+  padding-left: 250px;
   flex-direction: column;
-}
-
-.dashboardHeader {
-  position: relative;
-  height: 80px;
-  padding: 0 30px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #e5e9f2;
-  background-color: #ffffff;
-}
-
-.dashboardContent {
-  position: relative;
-  top: 0px;
-  left: 10%;
-  flex: 1;
-  width: 100%;
-  padding: 20px;
-  background-color: #f5f6fa;
 }
 
 .dashboardHeader {
@@ -139,13 +120,39 @@ h2 {
   background-color: #413290;
 }
 
+.dashboardContent {
+  position: relative;
+  top: 0px;
+ 
+  width: 100%;
+  padding-left: 100px;
+  background-color: #f5f6fa;
+}
+
+
 .dashboardHeader p {
   position: relative;
   top: 0px;
-  left: 900px;
+  left:30%;
   color: white;
 }
 
+.dashboardHeader button {
+  position:relative;
+  padding: 10px 20px;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.butt1{
+  position:relative;
+  padding: 10px 20px;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
   /* Inside your App1.css */
   .overlay {

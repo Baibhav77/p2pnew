@@ -1,13 +1,18 @@
 .ltvOverview {
     background-color: #FFFFFF;
+  width:70%;
+  margin-top:10%;
+  margin-left:25%;
     border-radius: 10px;
-    padding: 20px;
+    padding-left: 20%;
+  padding-top: 5%;
+  padding-right: 20%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   
 }
 
 .ltvOverview h2 {
-    margin: 0;
+    margin: 30px;
     font-size: 24px;
     color: #5343AA; /* Brand color */
     margin-bottom: 20px;

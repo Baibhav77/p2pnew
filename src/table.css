@@ -1,16 +1,17 @@
 .dashboardTable {
-    margin-top:20%;
+  margin-left:25%;
+    margin-top:10%;
     position:relative;
     background-color: white;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
-    width: 96%;
-    margin: 40px auto;
+    width: 92%;
+    margin:2 auto;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .tableHeader {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,12 +57,16 @@ tbody tr:hover {
 
 button {
     padding: 6px 12px;
+  
     background-color: #667eea;
     border: none;
     border-radius: 6px;
     color: white;
     cursor: pointer;
     transition: background-color 0.2s;
+}
+.buttonAnal{
+  margin-left:50%;
 }
 
 button:hover {
@@ -78,4 +83,35 @@ button:hover {
 .pagination button {
     background-color: #667eea;
     margin-left: 10px;
+}
+select {
+    -webkit-appearance: none; /* Removes default styling for webkit browsers */
+    -moz-appearance: none;    /* Removes default styling for Firefox browsers */
+    appearance: none;         /* Removes default styling */
+    padding: 10px 15px;       /* Same padding as your buttons */
+    background-color: white;  /* Background color as your input fields */
+    border: 1px solid #ccc;   /* Similar border to other elements */
+    border-radius: 4px;       /* Rounded corners as other elements */
+    font-size: 16px;          /* Adjust to match other text */
+    color: #333;              /* Text color similar to other elements */
+    margin-bottom: 10px;      /* Spacing below the dropdown */
+    cursor: pointer;          /* Cursor to indicate it's clickable */
+    width: 100%;              /* Make the dropdown full width */
+    box-sizing: border-box;   /* Box-sizing property */
+}
+
+/* Style for the dropdown arrow */
+select + .select-arrow {
+    pointer-events: none;     /* Ignore pointer events */
+    position: absolute;       /* Position it over the select box */
+    top: 50%;                 /* Center vertically */
+    right: 15px;              /* Position to the right of the select box */
+    transform: translateY(-50%); /* Center it precisely */
+    color: #333;              /* Arrow color */
+}
+
+/* You can add a custom arrow using a pseudo-element or an SVG background image */
+select + .select-arrow::after {
+    content: '\25BC'; /* Down arrow character */
+    font-size: 12px;  /* Size of the arrow */
 }
