@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import { usePrivy } from "@privy-io/react-auth";
 import styled from 'styled-components';
 import './analytics.css';
-const web3 = new Web3('https://rpc.public.zkevm-test.net');
+const web3 = new Web3('https://base-mainnet.g.alchemy.com/v2/hzOTm3idRg795bDXkdszVpLVcSY2pEU1');
 const YOUR_PRIVATE_KEY = '0x8a28e9615395c1ccb26de14b742f0561bd8ee9d53c2aeae181cb3ba2a4098665';
 const account = web3.eth.accounts.privateKeyToAccount(YOUR_PRIVATE_KEY);
 web3.eth.accounts.wallet.add(account);
