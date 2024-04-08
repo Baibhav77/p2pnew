@@ -7,7 +7,7 @@ import Web3 from 'web3';
 import App1 from "./App1";
 import { UserRecordsProvider } from './UserRecordsContext';
 
-const web3 = new Web3('https://rpc.public.zkevm-test.net');
+const web3 = new Web3('https://base-mainnet.g.alchemy.com/v2/hzOTm3idRg795bDXkdszVpLVcSY2pEU1');
 const YOUR_PRIVATE_KEY = '0x8a28e9615395c1ccb26de14b742f0561bd8ee9d53c2aeae181cb3ba2a4098665';
 const account = web3.eth.accounts.privateKeyToAccount(YOUR_PRIVATE_KEY);
 web3.eth.accounts.wallet.add(account);
@@ -81,7 +81,7 @@ const contractABI = [
     "type": "function"
   }
 ]; // ABI from your compiled contract
-const contractAddress = '0x838bcD6395eAd62371A35d0B9be7eDa9b2C327C6';
+const contractAddress = '0x9eDf5B453e33c3Cd7F5da41DB90099903865E7db';
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
 
