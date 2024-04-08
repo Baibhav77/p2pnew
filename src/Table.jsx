@@ -5,7 +5,7 @@ import Modal from 'react-modal';
 import { usePrivy } from "@privy-io/react-auth";
 import styled from 'styled-components';
 import TableDashboard from './tableDashboard'
-const web3 = new Web3('https://rpc.public.zkevm-test.net');
+const web3 = new Web3('https://base-mainnet.g.alchemy.com/v2/hzOTm3idRg795bDXkdszVpLVcSY2pEU1');
 const contractABI = [
   {
     "anonymous": false,
@@ -226,7 +226,7 @@ const contractABI = [
     "type": "function"
   }
 ];
-const contractAddress = '0x6c6f92dA249723A0805568E353cbd6bF74561274';  // replace with your contract address
+const contractAddress = '0xbaB3BD08d65E4F94376B5428b661fD6439FC998D';  // replace with your contract address
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
 function Table() {
