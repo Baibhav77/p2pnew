@@ -231,7 +231,7 @@ const contractABI = [
       "type": "function"
     }
   ];
-const contractAddress = '0xC69089e8182a70601bC7369E9A576895c072EA53';
+const contractAddress = '0xbaB3BD08d65E4F94376B5428b661fD6439FC998D';
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
 // This is required to bind the modal to the app root
